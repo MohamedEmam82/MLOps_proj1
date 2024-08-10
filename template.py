@@ -8,7 +8,7 @@ from pathlib import Path  # Path to handle differnrt styles of defining director
 
 list_of_files = [
 
-    ".github/workflows/.gitkeep",
+    ".github/workflows/.gitkeep",               # used for deployment and continuose integration, CI/CD
 
     "src/__init__.py",
     "src/components/__init__.py",
@@ -22,7 +22,7 @@ list_of_files = [
     "src/utils/__init__.py",
     "src/utils/utils.py",
     "src/logger/logging.py",
-    "src/exception/exception",      # --> NO files, only folders
+    "src/exception/exception.py",                  # --> NO files, only folders
 
     "tests/unit/__init__.py",
     "tests/integration/__init__.py",
@@ -35,7 +35,7 @@ list_of_files = [
     "pyproject.toml",
     "tox.ini",
 
-    "experiment/experiments.ipynb"
+    "experiment/experiments.ipynb"              # for trying/testing a code in Jupyter notebook
     
 ]
 
